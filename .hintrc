@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "highest-available-document-mode": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "translate",
+          "rotate"
+        ]
+      }
+    ],
+    "button-type": "off"
+  }
+}
